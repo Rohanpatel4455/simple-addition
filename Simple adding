@@ -1,0 +1,16 @@
+#include <stdio.h>
+main()
+{
+	int addition(int,int,int);
+	int a,b,c,sum;
+	printf("enter any 3no.");
+	scanf("%d%d%d",&a,&b,&c);
+	sum=addition (a,b,c);
+	printf("sum %d",sum);
+	}
+	int addition (int x,int y,int z)
+	{
+		int d;
+		d=x+y+z;
+		return (d);
+		}
